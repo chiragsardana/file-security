@@ -1,0 +1,18 @@
+File security manager: A java application where we give an existing text file name as input
+and the output will be a text file with unreadable code. This application will basically secure
+the text file by converting our source file into a secured file. It will also convert the secured
+file into original file when required.
+Definition Of Done:
+a) System should ask the user to enter a text file name and validate if the file is existing or not.
+b) It will use some security algorithm and key to convert the source file into a secured file.
+c) it will ask user to enter a number and generate exception if the entered number is not as per
+the security algorithm used.
+d) It will prompt user to enter the security key to get the original file from the secured file.
+e) The algorithm and key should be same as above while converting the secured file to original
+file otherwise exception will be generated.
+
+to compile
+javac -cp classes/ -d classes/ src/com/ncu/main/Main.java
+
+to run the project
+java -cp classes/ com.ncu.main.Main 
